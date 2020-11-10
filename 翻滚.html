@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title></title>
+		<style>
+			.ball {
+				position: relative;
+				border: 1px dashed red;
+				width: 100px;
+				height: 100px;
+				text-align: center;
+				transition: all 5s ease;
+			}
+			
+			body:hover .ball {
+				border-radius: 50px;
+				transform: translate(50px, 100px) rotateX(360deg) scale(2);
+				//transition: all 5s ease;
+			}
+		</style>
+	</head>
+	<body>
+		<div class="ball">
+			8
+		</div>
+	</body>
+</html>
